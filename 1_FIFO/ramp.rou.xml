@@ -1,0 +1,5 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+                 <vType id="vtype" accel="3" decel="4" sigma="0" length="5" minGap="2" maxSpeed="35" laneChangeModel="SL2015" carFollowModel="IDM" tau="0.68" actionStepLength="0.1" lcAssertive='1.2' lcStrategic='0.55' lcCooperative='0.85'/>
+                 <route id="me" edges="E0 E1 E2"/>
+                 <route id="re" edges="E3 E1 E2"/>
+</routes>
